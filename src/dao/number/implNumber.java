@@ -1,8 +1,8 @@
-package dao;
+package dao.number;
 
+import dao.DBConnect;
 import model.Record;
 
-import java.lang.reflect.Array;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

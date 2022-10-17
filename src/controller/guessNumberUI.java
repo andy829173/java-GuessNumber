@@ -1,11 +1,10 @@
 package controller;
 
-import dao.implNumber;
+import dao.number.implNumber;
 import model.Record;
 
 import javax.swing.*;
 import java.awt.*;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -43,7 +42,7 @@ public class guessNumberUI extends JFrame {
         this.setBounds(400, 200, 500, 500);
         this.setResizable(false);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        container = this.getContentPane();// 取得ContenPane容器
+        container = this.getContentPane();// 取得ContentPane容器
         container.setLayout(null);// 不使用佈局,即用相對位置來自行排列UI
         output_ta.setEditable(false);
 

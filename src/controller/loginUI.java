@@ -1,6 +1,6 @@
 package controller;
 
-import dao.implLogin;
+import dao.login.implLogin;
 
 import javax.swing.*;
 import java.awt.*;

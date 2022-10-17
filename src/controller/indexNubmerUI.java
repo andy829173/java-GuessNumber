@@ -1,11 +1,7 @@
 package controller;
 
-import dao.implNumber;
-import model.Record;
-
 import javax.swing.*;
 import java.awt.*;
-import java.util.ArrayList;
 
 
 public class indexNubmerUI extends JFrame {
@@ -14,7 +10,7 @@ public class indexNubmerUI extends JFrame {
     private Container container;
     private JTextArea TA1 = new JTextArea();
     private JButton startBtn = new JButton("遊戲開始");
-    private JButton submitBtn = new JButton("提交");
+    private JButton rankingBtn = new JButton("排行榜");
 
     public indexNubmerUI() {
         init();
@@ -46,13 +42,13 @@ public class indexNubmerUI extends JFrame {
 
         // setBounds
         TA1.setBounds(50, 50, 300, 200);
-        startBtn.setBounds(150, 260, 100, 30);
-        submitBtn.setBounds(500, 130, 100, 30);
+        startBtn.setBounds(200, 260, 100, 30);
+        rankingBtn.setBounds(100, 260, 100, 30);
 
         // add
         container.add(TA1);
         container.add(startBtn);
-        container.add(submitBtn);
+        container.add(rankingBtn);
 
         // listener
         startBtn.addActionListener(e -> {

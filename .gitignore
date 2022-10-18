@@ -84,3 +84,4 @@ META-INF
 .idea/.gitignore
 .idea/misc.xml
 .idea/vcs.xml
+*.jar

@@ -48,7 +48,7 @@ public class indexNubmerUI extends JFrame {
         // add
         container.add(TA1);
         container.add(startBtn);
-        container.add(rankingBtn);
+//        container.add(rankingBtn);
 
         // listener
         startBtn.addActionListener(e -> {
